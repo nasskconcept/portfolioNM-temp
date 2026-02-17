@@ -1,0 +1,53 @@
+@media screen and (max-width: 768px) {
+
+    header {
+      flex-direction: column;
+      gap: 16px;
+      text-align: center;
+    }
+  
+    nav ol {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .carte-profil {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .photo-profil {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .apropos {
+      padding: 20px;
+    }
+  
+    .skills-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .hard-skills {
+      border-right: none;
+      padding-right: 0;
+    }
+  
+    .soft-skills {
+      padding-left: 0;
+    }
+    .projet-fil-rouge {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+      }
+    .carrousel img {
+      width: 220px;
+    }
+  
+  }
+  
